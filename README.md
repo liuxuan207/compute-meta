@@ -137,5 +137,5 @@ Posts a ComputeRequest.java to the endpoint. The curateMachine comes from the ca
 
 Deploy to Staging environment configs with 
 ```
-java -jar artifacts/stage/demo-0.0.1-SNAPSHOT-stage.jar --spring.profiles.active=stage
+java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=stage --server.port=6060
 ```
